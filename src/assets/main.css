@@ -1,0 +1,52 @@
+@import './base.css';
+.red-color-text{
+  color: var(--red-color);
+}
+.blue-color-text{
+  color: var(--blue-color);
+}
+.red-color-bg{
+  background: var(--red-color);
+}
+.blue-color-bg{
+ background-color: var(--blue-color);
+}
+
+
+
+
+
+
+
+.bgblueuni {
+  background-color: var(--vt-c-RedUniempresarial);
+}
+.nav-link{
+  width: 100%;
+  border-radius: 5px;
+  pad: 5px;
+  margin: 10px;
+
+}
+.navbar-nav{
+  width: 100%;
+}
+
+
+@media (hover: hover) {
+  .nav-link:hover {
+    background-color: hsla(233, 99%, 49%, 0.424);
+    color: white;
+    border: 1px solid var(--vt-c-RedUniempresarial);
+  }
+}
+
+.router-link-active {
+  border: none;
+  padding: 16px 0px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+}

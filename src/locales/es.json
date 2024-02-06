@@ -1,0 +1,22 @@
+{
+  "hello": "Hola Mundo!",
+  "Fabrica":"Hola Fabrica",
+  "label":"prueba",
+  "about": {
+    "message": "otro mensaje"
+  },
+  "footer": {
+    "contact": "contacto",
+    "adress":"Cra 33a # 30-20 Bogotá D.C",
+    "phone": "(+601) 3808000 Exts. 1002, 6604, 6607, 6608"
+  },
+  "login":{
+    "title":"Iniciar Sesion",
+    "email":"Ingrese su correo institucional",
+    "password":"Ingrese su Contraseña",
+    "Terms":"Aceptar terminos y condiciones",
+    "Forget":"¿Olvido la contraseña?",
+    "Register":"Registrase",
+    "Login":"Ingresar"
+  }
+}

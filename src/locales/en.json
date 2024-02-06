@@ -1,0 +1,17 @@
+{
+  "hello": "hello, world!",
+  "footer": {
+    "contact": "contact",
+    "adress":"Cra 33a # 30-20 Bogotá D.C",
+    "phone": "(+601) 3808000 Exts. 1002, 6604, 6607, 6608"
+  },
+  "login":{
+    "title":"Log In",
+    "email":"Enter your institutional email",
+    "password":"Enter your Password",
+    "Terms":"Accept terms and conditions",
+    "Forget":"Forgot password?",
+    "Register":"Register",
+    "Login":"Get in"
+  }
+}
