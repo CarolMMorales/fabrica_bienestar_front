@@ -20,26 +20,34 @@
       id="navbarNavAltMarkup"
     >
       <div class="menu-items ">
-        <RouterLink  to="/dasboard" @click="closeMenu" active-class="active"  class="side-btn">
-          <div class="link-container"><i class="ri-pie-chart-fill"></i>
-            Dasboard
+        <RouterLink  to="/acctions" @click="closeMenu" active-class="active"  class="side-btn">
+          <div class="link-container"><i class="bi bi-person-video2"></i>
+            Acciones
           </div></RouterLink>
-        <RouterLink to="/persons" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="ri-team-fill"></i>
-           Personas
+        <RouterLink to="/typeActivities" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-bar-chart-steps"></i>
+           Tipos de actividades
           </div></RouterLink>
-          <RouterLink to="/user" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="ri-shield-user-fill"></i>
-            Usuarios
+          <RouterLink to="/activities" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-list-stars"></i>
+            Actividades
           </div></RouterLink>
-          <RouterLink to="/contacts" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="ri-contacts-book-3-fill"></i>
-            Contatos emergencia
+          <RouterLink to="/typesrequests" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-clipboard-data-fill"></i>
+            Tipos de solicitudes
           </div></RouterLink>
         <RouterLink       
-       to="/eps" active-class="active" @click="closeMenu" class="side-btn"><div class="link-container"><i class="ri-folder-user-fill"></i>
-            Eps
+       to="/requests" active-class="active" @click="closeMenu" class="side-btn"><div class="link-container"><i class="bi bi-chat-text-fill"></i>
+            Solicitudes
           </div></RouterLink>
-
-          <RouterLink to="/genders"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="ri-genderless-fill"></i>
-            Generos
+          <RouterLink to="/factors"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-file-earmark-ruled-fill"></i>
+          Factores
+          </div></RouterLink>
+          <RouterLink to="/permanence"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-people-fill"></i>
+          Permanencia
+          </div></RouterLink>
+          <RouterLink to="/inscriptions"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-person-lines-fill"></i>
+          Inscripciones
+          </div></RouterLink>
+          <RouterLink to="/attendance"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-calendar-check-fill"></i>
+          Asistencia
           </div></RouterLink>
           <button class="side-btn text-start" @click="logoutUser"><i class="ri-logout-box-r-fill"></i>Salir</button>
 

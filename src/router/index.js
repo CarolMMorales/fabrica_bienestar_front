@@ -34,49 +34,73 @@ const router = createRouter({
       },
       children: [
         {
-          path: '/persons',
-          name: 'byuser',
-          component: () => import('../views/PersonsView.vue'),
+          path: '/acctions',
+          name: 'byacctions',
+          component: () => import('../views/AcctionsView.vue'),
           meta: {
             auth: true
           }
         },
         {
-          path: '/dasboard',
-          name: 'bydashboard',
-          component: () => import('../views/DashboardView.vue'),
+          path: '/typeActivities',
+          name: 'bytypeactivities',
+          component: () => import('../views/TypeActivitiesView.vue'),
           meta: {
             auth: true
           }
         },
         {
-          path: '/eps',
-          name: 'byeps',
-          component: () => import('../views/EpsView.vue'),
+          path: '/activities',
+          name: 'byactivities',
+          component: () => import('../views/ActivitiesView.vue'),
           meta: {
             auth: true
           }
         },
         {
-          path: '/contacts',
-          name: 'bycontacts',
-          component: () => import('../views/ContactsView.vue'),
+          path: '/typesrequests',
+          name: 'bytypesrequests',
+          component: () => import('../views/TypesOfRequestsView.vue'),
           meta: {
             auth: true
           }
         },
         {
-          path: '/genders',
-          name: 'bygenders',
-          component: () => import('../views/GendersView.vue'),
+          path: '/requests',
+          name: 'byrequests',
+          component: () => import('../views/RequestsView.vue'),
           meta: {
             auth: true
           }
         },
         {
-          path: '/user',
-          name: 'user',
-          component: () => import('../views/UserViews.vue'),
+          path: '/factors',
+          name: 'byfactors',
+          component: () => import('../views/FactorsViews.vue'),
+          meta: {
+            auth: true
+          }
+        },
+        {
+          path: '/permanence',
+          name: 'bypermanence',
+          component: () => import('../views/PermanenceView.vue'),
+          meta: {
+            auth: true
+          }
+        },
+        {
+          path: '/inscriptions',
+          name: 'byinscriptions',
+          component: () => import('../views/InscriptionsView.vue'),
+          meta: {
+            auth: true
+          }
+        },
+        {
+          path: '/attendance',
+          name: 'byattendance',
+          component: () => import('../views/AttendanceView.vue'),
           meta: {
             auth: true
           }
