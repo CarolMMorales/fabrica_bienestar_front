@@ -1,18 +1,18 @@
 <template>
     <div class="m-5">
       <div class="card  shadow bg-body-tertiary rounded">
-        <h2 class="red-color-text fw-bold text-center mt-3">Acciones</h2>
+        <h2 class="red-color-text fw-bold text-center mt-3">{{ $t('titles.actions') }}</h2>
         <div class="card-header">
           <div class="row p-3">
             <div class="col-12 col-lg-12 text-end">
                 <!--button modal lcth-->
-                <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-plus-square-fill"></i> Agregar</button>
+                <button class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-plus-square-fill"></i> {{$t('buttons.add')}}</button>
             </div>
           </div>
         </div>
         <div class="card-body">
           <!--aqui va el datatable-->
-          <TableAcctionsComponent></TableAcctionsComponent>
+          <TableActionsComponent></TableActionsComponent>
           <ModalComponent></ModalComponent>
         </div>
       </div>
@@ -20,7 +20,7 @@
   </template>
   
   <script setup>
-  import TableAcctionsComponent from '../components/acctions/TableAcctionsComponent.vue'
+  import TableActionsComponent from '../components/actions/TableActionsComponent.vue'
   import ModalComponent from '../components/ModalComponent.vue';
   </script>
   

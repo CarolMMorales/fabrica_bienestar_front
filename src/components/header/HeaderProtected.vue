@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6 pt-3  ">
-        <h1 class="text-center red-color-text">Bienestar</h1>
+        <h1 class="text-center red-color-text"> {{ $t('homepage.welfare') }}</h1>
       </div>
     </div>
   </header>

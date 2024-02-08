@@ -7,7 +7,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; " >
       <img src="/src/assets/img1.webp" class="card-img-top mb-2" alt="...">
-       <strong> <h3 class=" text-center text-danger mt-2 mb-4">Contenido General</h3> </strong>
+       <strong> <h3 class=" text-center text-danger mt-2 mb-4">{{$t('homepage.generalContent')}}</h3> </strong>
     </RouterLink>
     </div>
   </div>
@@ -18,7 +18,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; ">
       <img src="/src/assets/img2.webp" class="card-img-top mb-2" alt="...">
-       <strong> <h3 class=" text-center text-danger mt-2 mb-4 " style="text-decoration: none;">Bienestar</h3> </strong>
+       <strong> <h3 class=" text-center text-danger mt-2 mb-4 " style="text-decoration: none;">{{$t('homepage.welfare')}}</h3> </strong>
     </RouterLink>
     </div>
     </div>
@@ -28,7 +28,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; ">
       <img src="/src/assets/img7.webp" class="card-img-top mb-2" alt="...">
-      <strong>  <h3 class=" text-center text-danger mt-2 mb-4">Agendamiento Biblioteca</h3> </strong>
+      <strong>  <h3 class=" text-center text-danger mt-2 mb-4">{{$t('homepage.libraryScheduling')}}</h3> </strong>
     </RouterLink>
     </div>
     </div>
@@ -38,7 +38,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; ">
       <img src="/src/assets/img8.webp" class="card-img-top mb-2" alt="...">
-       <strong><h3 class=" text-center text-danger mt-2 mb-4">Coformación</h3> </strong> 
+       <strong><h3 class=" text-center text-danger mt-2 mb-4">{{$t('homepage.coformacion')}}</h3> </strong> 
     </RouterLink>
     </div>
     </div>
@@ -48,7 +48,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; ">
       <img src="/src/assets/img6.webp" class="card-img-top mb-2" alt="...">
-       <strong> <h3 class=" text-center text-danger mt-2 mb-4">Calificador</h3> </strong>
+       <strong> <h3 class=" text-center text-danger mt-2 mb-4">{{$t('homepage.qualifer')}}</h3> </strong>
     </RouterLink>
     </div>
     </div>
@@ -58,7 +58,7 @@
     <div class="card shadow-lg h-100 border border-dark">
       <RouterLink  to="/login" style="text-decoration: none; color: inherit; ">
       <img src="/src/assets/img3.webp" class="card-img-top mb-2" alt="...">
-        <strong><h3 class=" text-center text-danger mt-2 mb-4">Certificados Laborales</h3> </strong>
+        <strong><h3 class=" text-center text-danger mt-2 mb-4">{{$t('homepage.laborCertificates')}}</h3> </strong>
     </RouterLink>
     </div>
     </div>

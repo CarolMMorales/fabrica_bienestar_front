@@ -20,36 +20,36 @@
       id="navbarNavAltMarkup"
     >
       <div class="menu-items ">
-        <RouterLink  to="/acctions" @click="closeMenu" active-class="active"  class="side-btn">
+        <RouterLink  to="/actions" @click="closeMenu" active-class="active"  class="side-btn">
           <div class="link-container"><i class="bi bi-person-video2"></i>
-            Acciones
+            {{ $t('titles.actions') }}
           </div></RouterLink>
         <RouterLink to="/typeActivities" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-bar-chart-steps"></i>
-           Tipos de actividades
+          {{ $t('titles.typeActivities') }}
           </div></RouterLink>
           <RouterLink to="/activities" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-list-stars"></i>
-            Actividades
+            {{ $t('titles.activities') }}
           </div></RouterLink>
           <RouterLink to="/typesrequests" @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-clipboard-data-fill"></i>
-            Tipos de solicitudes
+            {{ $t('titles.typeRequests') }}
           </div></RouterLink>
         <RouterLink       
        to="/requests" active-class="active" @click="closeMenu" class="side-btn"><div class="link-container"><i class="bi bi-chat-text-fill"></i>
-            Solicitudes
+        {{ $t('titles.requests') }}
           </div></RouterLink>
           <RouterLink to="/factors"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-file-earmark-ruled-fill"></i>
-          Factores
+            {{ $t('titles.factors') }}
           </div></RouterLink>
           <RouterLink to="/permanence"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-people-fill"></i>
-          Permanencia
+            {{ $t('titles.permanence') }}
           </div></RouterLink>
           <RouterLink to="/inscriptions"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-person-lines-fill"></i>
-          Inscripciones
+            {{ $t('titles.inscription') }}
           </div></RouterLink>
           <RouterLink to="/attendance"  @click="closeMenu" active-class="active"  class="side-btn"><div class="link-container"><i class="bi bi-calendar-check-fill"></i>
-          Asistencia
+            {{ $t('titles.attendance') }}
           </div></RouterLink>
-          <button class="side-btn text-start" @click="logoutUser"><i class="ri-logout-box-r-fill"></i>Salir</button>
+          <button class="side-btn text-start" @click="logoutUser"><i class="ri-logout-box-r-fill"></i> {{ $t('titles.signOff') }}</button>
 
       </div>
     </div>

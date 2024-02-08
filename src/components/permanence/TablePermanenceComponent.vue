@@ -7,16 +7,19 @@
 " >
           <tr>
             <th>{{ $t('tables.id') }}</th>
-            <th>{{ $t('tables.activityDate') }}</th>
-            <th>{{ $t('tables.descriptionActivity') }}</th>
-            <th>{{ $t('tables.typeActivity') }}</th> 
+            <th>{{ $t('tables.permanence.date') }}</th>
+            <th>{{ $t('tables.permanence.description') }}</th>
+            <th>{{ $t('tables.permanence.requests') }}</th>
+            <th>{{ $t('tables.permanence.typeAction') }}</th>
             <th>{{ $t('tables.create/modifiedBy') }}</th> 
             <th>{{ $t('tables.create/modified') }}</th> 
             <th>{{ $t('buttons.edit') }}</th> 
-            <th>{{ $t('buttons.delete') }}</th> 
+            <th>{{ $t('buttons.edit') }}</th> 
           </tr>
         </thead>
         <tbody>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>

@@ -18,5 +18,71 @@
     "Forget":"¿Olvido la contraseña?",
     "Register":"Registrase",
     "Login":"Ingresar"
+  },
+  "titles":{
+    "actions": "Acciones",
+    "activities": "Actividades",
+    "inscription": "Inscripciones", 
+    "attendance": "Asistencia",
+    "factors": "Factores",
+    "permanence": "Permanencia",
+    "requests": "Solicitudes",
+    "typeRequests": "Tipo de solicitudes",
+    "typeActivities": "Tipo de actividades",
+    "signOff": "Cerrar sesion"
+  },
+  "homepage":{
+    "generalContent": "Contenido General",
+    "welfare":"Bienestar",
+    "libraryScheduling":"Agendamiento Biblioteca",
+    "coformacion":"Coformación",
+    "qualifer":"Calificador",
+    "laborCertificates":"Certificados Laborales"
+  },
+  "buttons":{
+    "add":"Agregar",
+    "edit":"Editar",
+    "delete":"Eliminar"
+  },
+  "tables":{
+    "id":"Id",
+    "edit":"Editar",
+    "delete":"Eliminar",
+    "activityDate":"Fecha actividad",
+    "descriptionActivity":"Descripción actividad",
+    "typeActivity":"Tipo de actividad",
+    "create/modifiedBy":"Creado/Modificado por:",
+    "create/modified":"Creado/Modificado el:",
+    "inscription":{
+      "inscriptions":"Inscripciones"
+    },
+    "attendance":{
+      "name":"Nombre",
+      "description":"Descripción",
+      "actions":"Acciones"
+    },
+    "factors":{
+      "name":"Nombre del factor"
+    },
+    "permanence":{
+      "date":"Fecha",
+      "description":"Descripción",
+      "requests":"Solicitud",
+      "typeAction":"Tipo de acción"
+    },
+    "requests":{
+      "date":"Fecha",
+      "name":"Nombre",
+      "description":"Descripción",
+      "actions":"Acciones",
+      "typeRequests":"Tipo de solicitudes",
+      "factors":"Factor",
+      "associateStudent":"Estudiante asociado"
+    },
+    "students":{
+      "name":"Nombre",
+      "description":"Descripción",
+      "actions":"Acciones"
+    }
   }
 }

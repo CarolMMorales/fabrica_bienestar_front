@@ -6,19 +6,15 @@
         <thead style="background-color: blue;
 " >
           <tr>
-            <th>id</th>
-            <th>Fecha actividad</th>
-            <th>Description actividad</th>
-            <th>Tipo de actividad</th> 
-            <th>Creado/Modificado por:</th> 
-            <th>Creado/Modificado el:</th> 
-            <th>Editar</th> 
-            <th>Eliminar</th> 
+            <th>{{ $t('tables.id') }}</th>
+            <th>{{ $t('tables.typeActivity') }}</th>
+            <th>{{ $t('tables.create/modifiedBy') }}</th> 
+            <th>{{ $t('tables.create/modified') }}</th> 
+            <th>{{ $t('buttons.edit') }}</th> 
+            <th>{{ $t('buttons.delete') }}</th> 
           </tr>
         </thead>
         <tbody>
-          <td></td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>

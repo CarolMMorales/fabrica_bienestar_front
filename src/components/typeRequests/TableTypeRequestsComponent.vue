@@ -7,9 +7,7 @@
 " >
           <tr>
             <th>{{ $t('tables.id') }}</th>
-            <th>{{ $t('tables.activityDate') }}</th>
-            <th>{{ $t('tables.descriptionActivity') }}</th>
-            <th>{{ $t('tables.typeActivity') }}</th> 
+            <th>{{ $t('tables.requests.typeRequests') }}</th>           
             <th>{{ $t('tables.create/modifiedBy') }}</th> 
             <th>{{ $t('tables.create/modified') }}</th> 
             <th>{{ $t('buttons.edit') }}</th> 
@@ -17,8 +15,7 @@
           </tr>
         </thead>
         <tbody>
-          <td></td>
-          <td></td>
+    
           <td></td>
           <td></td>
           <td></td>

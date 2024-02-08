@@ -13,5 +13,66 @@
     "Forget":"Forgot password?",
     "Register":"Register",
     "Login":"Get in"
+  },
+  "titles":{
+    "actions": "Actions",
+    "activities": "Activities",
+    "inscription": "Inscriptions", 
+    "attendance": "Attendance",
+    "factors": "Factors",
+    "permanence": "Permanence",
+    "requests": "Requests",
+    "typeRequests": "Type of requests",
+    "typeActivities": "Type of activities",
+    "signOff": "Sign Off"
+  },
+  "homepage":{
+    "generalContent": "General Content",
+    "welfare":"Welfare",
+    "libraryScheduling":"Library Scheduling",
+    "coformacion":"Coformación",
+    "qualifer":"Qualifer",
+    "laborCertificates":"Labor Certificates"
+  },
+  "buttons":{
+    "add":"Add",
+    "edit":"Edit",
+    "delete":"Delete"
+  },
+  "tables":{
+    "id":"Id",
+    "edit":"Edit",
+    "delete":"Delete",
+    "activityDate":"Activity Date",
+    "descriptionActivity":"Description Activity",
+    "typeActivity":"Type Activity",
+    "create/modifiedBy":"create/modified By:",
+    "create/modified":"create/modified:",
+    "inscription":{
+      "inscriptions":"Inscriptions"
+    },
+    "attendance":{
+      "name":"Name",
+      "description":"Description",
+      "actions":"Actions"
+    },
+    "factors":{
+      "name":"Name Factor"
+    },
+    "permanence":{
+      "date":"Date",
+      "description":"Description",
+      "requests":"Requests",
+      "typeAction":"Type Action"
+    },
+    "requests":{
+      "date":"Date",
+      "name":"Name",
+      "description":"Description",
+      "actions":"Actions",
+      "typeRequests":"Type of Requests",
+      "factors":"Factor",
+      "associateStudent":"Associate Student"
+    }
   }
 }
