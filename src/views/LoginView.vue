@@ -31,7 +31,7 @@
               <span class="error" v-if="!validateEmail(use_mail)">Formato de correo incorrecto</span>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label ps-3">{{
+              <label for="txtPassword" class="form-label ps-3">{{
                 $t('login.password')
               }}</label>
               <div class="input-group flex-nowrap">
@@ -57,7 +57,7 @@
               </span>
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-inputps-3" id="exampleCheck1" />
+              <input type="checkbox" class="form-check-inputps-3" id="exampleCheck1" required/>
               <label class="ps-2 form-check-label" for="exampleCheck1">{{
                 $t('login.Terms')
               }}</label>

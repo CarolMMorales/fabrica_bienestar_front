@@ -76,7 +76,7 @@ const router = createRouter({
         {
           path: '/factors',
           name: 'byfactors',
-          component: () => import('../views/FactorsViews.vue'),
+          component: () => import('../views/FactorsView.vue'),
           meta: {
             auth: true
           }
