@@ -6,11 +6,11 @@
         <thead style="background-color: blue;
 " >
           <tr>
-            <th>{{ $t('tables.id') }}</th>
-            <th>{{ $t('tables.factors.name') }}</th>           
-            <th>{{ $t('tables.create/modifiedBy') }}</th> 
-            <th>{{ $t('tables.create/modified') }}</th> 
-            <th>{{ $t('buttons.edit') }}</th> 
+            <th>{{ $t('student.identification') }}</th>
+            <th>{{ $t('student.inscriptionDate') }}</th>           
+            <th>{{ $t('student.name') }}</th> 
+            <th>{{ $t('student.career') }}</th> 
+            <th>{{ $t('student.prom') }}</th> 
             <th>{{ $t('buttons.delete') }}</th> 
           </tr>
         </thead>

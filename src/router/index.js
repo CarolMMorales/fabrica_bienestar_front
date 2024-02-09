@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { useAuthStore } from '@/stores/authStore';
 //import { useAuthStore } from '../stores/authStore.js'
 
 const router = createRouter({
@@ -93,6 +94,14 @@ const router = createRouter({
           }
         },
         {
+          path: '/inscriptionStudents',
+          name: 'byinscriptionStudents',
+          component: () => import('../views/EnrolledStudentView.vue'),
+          meta: {
+            auth: true
+          }
+        },
+        {
           path: '/attendance',
           name: 'byattendance',
           component: () => import('../views/AttendanceView.vue'),
@@ -104,6 +113,30 @@ const router = createRouter({
     }
   ]
 })
+router.beforeEach(async (to, from, next) => {
+  console.log(to.meta.auth);
+  const requiredAuth = to.meta.auth;
+  const UserStore = useAuthStore();
+ 
+  // Si el token ya está presente en el almacenamiento local, establecerlo en el almacén de estado
+  const localStorageToken = localStorage.getItem("Accept");
+  if (localStorageToken) {
+    UserStore.token = localStorageToken;
+  }
+ 
+  // Si el token está presente en el almacén de estado, permitir el acceso
+  if (UserStore.token) {
+    return next();
+  }
+ 
+  // Si la ruta requiere autenticación, redirigir al inicio de sesión
+  if (requiredAuth) {
+    return next("/login");
+  }
+ 
+  // Permitir el acceso a rutas públicas
+  return next();
+});
 /*
 //este si funciona descomentar al final 
 router.beforeEach(async (to,from, next) => {

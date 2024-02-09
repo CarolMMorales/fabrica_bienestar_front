@@ -73,6 +73,13 @@
       "typeRequests":"Type of Requests",
       "factors":"Factor",
       "associateStudent":"Associate Student"
+    },
+    "student":{
+    "identification":"Cedula",
+    "inscriptionDate":"Fecha inscripción",
+    "name":"Nombre Completo",
+    "career":"Programa",
+    "prom":"Promoción"
     }
   }
 }

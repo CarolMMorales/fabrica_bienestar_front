@@ -92,7 +92,7 @@
 </template>
 <script setup>
 import Carousel from '../components/Carousel.vue'
-import { useAuthStore } from '../stores/authStore.js'
+import { useAuthStore } from '../stores/authStore'
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import Swal from 'sweetalert2';

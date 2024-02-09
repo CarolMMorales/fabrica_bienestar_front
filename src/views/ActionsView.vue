@@ -13,7 +13,7 @@
         <div class="card-body">
           <!--aqui va el datatable-->
           <TableActionsComponent></TableActionsComponent>
-          <ModalComponent></ModalComponent>
+          <ModalActionsComponent></ModalActionsComponent>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
   
   <script setup>
   import TableActionsComponent from '../components/actions/TableActionsComponent.vue'
-  import ModalComponent from '../components/ModalComponent.vue';
+  import ModalActionsComponent from '@/components/actions/ModalActionsComponent.vue';
   </script>
   
   <style lang="scss" scoped>

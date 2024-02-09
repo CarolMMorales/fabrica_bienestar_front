@@ -21,7 +21,7 @@ export const useAuthStore = defineStore('user', () => {
     try {
     //  await getToken()
       console.log('ingreso')
-      const res = await axios.post('/login', {
+      const res = await axios.post('/login/2', {
         use_mail: use_mail,
         use_password: use_password
       })

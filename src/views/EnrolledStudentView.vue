@@ -12,7 +12,7 @@
         </div>
         <div class="card-body">
           <!--aqui va el datatable-->
-          <TableInscriptionsComponent></TableInscriptionsComponent>
+          <TableStudentComponent></TableStudentComponent>
           <ModalComponent></ModalComponent>
         </div>
       </div>
@@ -20,7 +20,7 @@
   </template>
   
   <script setup>
-  import TableInscriptionsComponent from '../components/inscriptions/TableInscriptionsComponent.vue'
+  import TableStudentComponent from '../components/enrolledStudent/TableStudentComponent.vue'
   import ModalComponent from '../components/ModalComponent.vue';
   </script>
   

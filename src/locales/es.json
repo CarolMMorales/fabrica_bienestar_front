@@ -53,6 +53,9 @@
     "typeActivity":"Tipo de actividad",
     "create/modifiedBy":"Creado/Modificado por:",
     "create/modified":"Creado/Modificado el:",
+    "actions":{
+      "action":"Acción"
+    },
     "inscription":{
       "inscriptions":"Inscripciones"
     },
